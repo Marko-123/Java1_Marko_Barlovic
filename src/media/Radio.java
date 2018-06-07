@@ -31,4 +31,18 @@ public class Radio {
     public void setband(char band) {
         this.band = band;
     }
+    
+    public Radio(double fmFrequency, int amFrequency, char band) {
+        this.fmFrequency = fmFrequency;
+        this.amFrequency = amFrequency;
+        this.band = band;
+        
+    }
+    
+    public void showData() {
+        System.out.println("fmFrequency is: " + getfmFrequency());
+        System.out.println("amFrequency is:" + getamFrequency());
+        System.out.println("band is: " + getband());
+        System.out.println("");
+    }
 }
