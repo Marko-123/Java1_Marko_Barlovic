@@ -17,6 +17,13 @@ public class Main {
         
         Radio IN = new Radio(99.2, 102, 'F');
         IN.showData();
+        
+        IN.setfmFrequency(96.6);
+        IN.setamFrequency(107);
+        IN.setband('M');
+        
+        IN.showData();
+        
 
     }
 
