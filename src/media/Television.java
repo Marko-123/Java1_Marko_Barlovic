@@ -5,7 +5,7 @@ public class Television {
     
     private int volume;
     private int currentProgram;
-    private String turnOn;
+    private boolean turnOn;
     
     
     public int getVolume() {
@@ -24,15 +24,15 @@ public class Television {
         this.currentProgram = currentProgram;
     }
         
-        public String getTurnOn() {
+        public boolean getTurnOn() {
         return turnOn;
     }
 
-    public void setTurnOn(String turnOn) {
+    public void setTurnOn(boolean turnOn) {
         this.turnOn = turnOn;
     }
     }
     
             
     
-}
+
